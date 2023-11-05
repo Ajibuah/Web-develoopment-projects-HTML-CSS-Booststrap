@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#main-nav {
+    background-color: rgb(28, 26, 54);
+}
+
+.nav-link:hover {
+    background-color: #584b32;
+    border-radius: none;
+}
+#projects {
+    background-color:#602301;
+}
+.image{
+border-radius: 60%;
+width: 400px;
+}
+
+section {
+    height: 100vh;
+}
+
+.custom-col {
+    margin-top: 25%;
+}
+
+i {
+    color: black;
+}
+
+.card {
+    transition: all 0.3s;
+}
+#color{
+    background-color: rgb(28, 26, 54);
+
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.spacing {
+    margin-top: 10%;
+}
+
+.card .icon {
+    font-size: 48px;
+}
+
+.block {
+    height: 0.2rem;
+    width: 6rem;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+#contacts{
+    background-color:#602301;
+}
+
+.marquee-content {
+    display: flex;
+    animation: scrolling 5s linear infinite;
+}
+
+.marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+}
+
+.marquee-item img {
+    display: block;
+    width: 900px;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translatex(-194vw);
+    }
+}
+
+@keyframes fade-inout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-in-fade-out {
+    /* animation */
+    animation: fade-inout 5s infinite alternate;
+}
